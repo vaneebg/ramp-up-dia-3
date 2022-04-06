@@ -64,3 +64,9 @@ h3{
     font-weight: 900;
     text-shadow: 1px -3px black;
 }
+dt{
+    text-transform: capitalize;
+    font-weight:bolder;
+    letter-spacing: 9px;
+    text-shadow: -2px -3px brown;
+}
