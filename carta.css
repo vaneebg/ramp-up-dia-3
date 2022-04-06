@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Grape+Nuts&family=Lobster&display=swap');
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210901/pngtree-vintage-letter-paper-style-fo-phone-wallpaper-image_780935.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    font-family: 'Grape Nuts', cursive;
+    font-size:xx-large;
+    margin: 18% 15% 25% 18%; 
+    text-align: justify;
+}
+.right{
+    text-align:right;
+}
+
+a{
+    text-decoration: none;
+    color:saddlebrown;
+}
+a:hover, a:active{
+    color:brown;
+    text-decoration: underline;
+}
+
+
+ul{
+    list-style-type:circle;
+    border:2px dashed brown;
+    border-radius: 18px ;
+    width:50%;
+}
+ol{
+    list-style-type:upper-roman;
+    border:3px dotted brown;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+h1{
+    word-spacing: 5px;
+    font-family: 'Lobster', cursive;
+    word-spacing: -3px;
+    -webkit-text-stroke: 1px brown;
+    -moz-text-stroke: 1px brown;
+    font-size:80px;
+    color:rgb(238, 204, 131);
+    text-align: center;
+    text-shadow: 2px -4px black;
+    
+}
+h2{
+    color: brown;
+    text-shadow: 2px -4px rgb(48, 20, 1);
+}
+h3{
+    text-shadow: 2px -3px black;
+}
+   
+.first::first-letter{
+    font-size:1.5em;
+    color:brown;
+    font-weight: 900;
+    text-shadow: 1px -3px black;
+}
