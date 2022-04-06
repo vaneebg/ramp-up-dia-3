@@ -42,10 +42,10 @@ h1{
     word-spacing: 5px;
     font-family: 'Lobster', cursive;
     word-spacing: -3px;
-    -webkit-text-stroke: 1px brown;
-    -moz-text-stroke: 1px brown;
+    -webkit-text-stroke: 1px rgb(121, 31, 31);
+    -moz-text-stroke: 1px rgb(121, 31, 31);
     font-size:80px;
-    color:rgb(238, 204, 131);
+    color:rgb(199, 167, 94);
     text-align: center;
     text-shadow: 2px -4px black;
     
